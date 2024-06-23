@@ -22,11 +22,11 @@ def message_to_gdrive():
 
 
         credentials = Credentials(
-        token="ya29.a0AXooCgvrcAJwRdbXfbHtu5lZSSCI9Ti071peOsC8bqdKfxiVwgnNroYVJsQjbHNxEkouvIJffp14RFlVWQJB02G5U7n6S1eow7b1fcDLAtdm3fUquwpba0YYwdMDiVNcWeRRzjB_0nDwCOp1usIpEjcD2-s0LsyIw-awaCgYKAWYSARISFQHGX2Mi4hKgRhyuM5WolDLvp9Mhig0171",
-        refresh_token="1//0gVBr53npZiCYCgYIARAAGBASNwF-L9IrlvWpcX_uR789oBOuzBa9OuKj-G7wmgDUX1IEJGNQq31LkwVK9m04kE5QWalWd2BX9xg",
-        token_uri="https://oauth2.googleapis.com/token",
-        client_id="515444003927-0f60m45c6t835bkj9h6vr8d5ct0eh59i.apps.googleusercontent.com",
-        client_secret="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"
+        token="ya29.a0AXooCgvrcAJwRdbXfbZSSCI9Ti071peOsC8bqdKfxiVwgnNroYVJsQjbHNxEkouvIJffp14RFlVWQJB02G5U7n6S1eow7b1fcDLAtdm3fUquwpba0YYwdMDiVNcWeRRzjB_0nDwCOp1usIpEjcD2-s0LsyIw-awaCgYKAWYSARISFQHGX2Mi4hKgRhyuM5WolDLvp9Mhig0171",
+        refresh_token="1//0gVBr53npZiCYCRAAGBASNwF-L9IrlvWpcX_uR789oBOuzBa9OuKj-G7wmgDUX1IEJGNQq31LkwVK9m04kE5QWalWd2BX9xg",
+        token_uri="https://oauth2.googis.com/token",
+        client_id="515444003927-0fc6t835bkj9h6vr8d5ct0eh59i.apps.googleusercontent.com",
+        client_secret="GOCSPX-06vTOt_FMcaQ9CqioqXdYU8F"
         )
         
         service = build('drive', 'v3', credentials=credentials)
